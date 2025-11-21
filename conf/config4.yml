@@ -1,0 +1,17 @@
+# conf/config4.yml
+
+# model parameters
+vocab_size: 27
+d_model: 256
+n_layers: 4
+n_heads: 8
+max_len: 128
+activation: 'GeLU'
+mlp_ratio: 4
+dropout: 0.2
+learning_rate: 0.0001
+
+# Tunable parameters for transformer III
+weight_decay: [0.01, 0.001, 0.0001]
+gradient_clipping: [0.1, 0.5, 1.0, 2.0]
+adapt_grad_clipping: [0.01, 0.1, 0.5, 1.0]

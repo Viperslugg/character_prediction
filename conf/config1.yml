@@ -1,0 +1,16 @@
+# conf/config.yaml
+
+# model parameters
+vocab_size: 27
+d_model: 256
+n_layers: 4
+n_heads: 8
+max_len: 128
+
+# tunable parameters
+mlp_ratio: [2, 3, 4, 5]
+dropout: [0.1, 0.2, 0.3, 0.4]
+
+learning_rate: 0.001
+
+

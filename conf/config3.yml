@@ -1,0 +1,16 @@
+# conf/config3.yml
+
+# model parameters
+vocab_size: 27
+d_model: 256
+n_layers: 4
+n_heads: 8
+max_len: 128
+mlp_ratio: 4
+dropout: 0.2
+
+# Tunable parameters for transformer III
+activation: ['GeLU', 'SiLU', 'ReLU']
+g_activation: ['SwiGLU', 'GeGLU', 'GeLU']
+batch_size: [32, 64, 128, 256]
+learning_rate: [0.01, 0.005, 0.001, 0.0005, 0.0001]
