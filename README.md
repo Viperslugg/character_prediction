@@ -32,4 +32,4 @@ Below is the structure of the repository
     ├── test_text_int.npy
     ├── text8_test.txt
     ├── text8_train.txt
-    ├── train_text_int.npy
+    └── train_text_int.npy
