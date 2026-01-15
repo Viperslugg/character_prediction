@@ -1,7 +1,7 @@
 # character_prediction
 This repo is designed to implement and optimize a basic transformer model to predict the next character after encountering a sequence of previous characters.
 
-The work done here was inspired by [this repository](https://github.com/alexxthiery/char_transformer). Special thanks to [Alexandre Thiery](https://alexxthiery.github.io/) for answering my questions in [this assignment](https://alexxthiery.github.io/teaching/character_LLM/charllm.html).
+Special thanks to [Alexandre Thiery](https://alexxthiery.github.io/) for answering my questions in [this assignment](https://alexxthiery.github.io/teaching/character_LLM/charllm.html).
 
 
 This project follows a sequence of methods to optimize a basic transformer model by adjusting model architecture, training procedure and hyperparameters. It follows from **transformer_I.ipynb** and ends at **transformer_VI.ipynb**. The breakdown of experiments is summarized below:
