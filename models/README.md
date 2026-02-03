@@ -1,1 +1,1 @@
-
+The Transformer architecture has continued to dominate many areas in machine learning applications, most notably Natural Language Processing, which we are seeing here. While there are other ML libraries in Python that can implement a transformer from scratch, I decided to use JAX for accelerating computation backend, Flax (which already has the main components of the Transformer, Self Attention and Multi Head Attention, already integrated into it) for implementing neural networks, and Optax for optimizing the models. 
